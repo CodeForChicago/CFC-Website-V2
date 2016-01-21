@@ -1,0 +1,73 @@
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+<style>
+
+body{
+	overflow: hidden;
+}
+
+#title {
+    background-color:black;
+    color:black;
+    text-align:center;
+    padding:5px;
+}
+
+.chicagowatermark{
+	background-image: url(https://clayimaging.smugmug.com/Chicago-Series/i-9QQkDnQ/0/L/NorthAve_Skyline-L.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+	z-index: 8s;
+	overflow: scroll;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	font-size:18px;
+	
+}
+
+.contentheadings-firstchild{
+	padding-top:4.75em;
+}
+
+.contentheadings{
+	padding-top:0.5em;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight:bold;
+	font-color:black;
+	z-index:auto;
+	position: static;
+	padding-left:0.5em;
+	padding-right:0.7em;
+	padding-bottom: 0.0em;
+	overflow:scroll;
+}
+
+
+.content{
+	font-family: Helvetica;
+	font-size: 14px;
+	font-color: black;
+	padding-top: 0em;
+	padding-left:0.5em;
+}
+
+.imagestudents{
+	background-position: right;
+	background-image: url("http://dradis.ur.northwestern.edu/multimedia/photos/2013/09/primer638.jpg");
+	background-size: 20%;
+	background-repeat: no-repeat;
+	overflow: scroll;
+	position:absolute;
+}
+
+
+
+
+</style>

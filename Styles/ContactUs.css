@@ -1,0 +1,23 @@
+/*To be edited area - NEED TO ADD PAGE SPECIFIC LINKS */
+.menu li ul li a:link, .menu li ul li a:visited {
+	background-color:#09F;
+	
+	text-decoration: none;
+}
+
+.menu li ul li a:hover {
+	background-color:#0CF;	
+}
+
+#contact_form{
+	padding-top: 20%;
+	vertical-align: middle;
+	font: 20px arial red;
+	padding-left: 40%;
+}
+#cbox{
+	row
+}
+span{
+	padding-left: 2.6%;
+}
