@@ -129,6 +129,17 @@ a.pure-button-primary {
     background: #421C52;
 }
 
+.footers {
+   
+   left:0px;
+   position:fixed;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   z-index:99;
+   background:#421C52;
+}
+
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
     border-bottom: none;
