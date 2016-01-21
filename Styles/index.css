@@ -190,7 +190,7 @@ a.pure-button-primary:hover {
  */
 
 .splash-container {
-    background-image: url(http://www.hdwallpapersnew.net/wp-content/uploads/2015/01/awesome-hd-new-wallpaper-of-chicago-skyline.jpg);/*(../images/transparentchicago.gif); */
+    background-image: url("../images/Skyline.jpg");/*(../images/transparentchicago.gif); */
     background-size: cover;
     background-repeat: no-repeat;
     /*background: #421C52;*/
