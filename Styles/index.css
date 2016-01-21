@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'LeagueGothic Regular WebFont';
+  src:  url('/fonts/theleagueof-league-gothic-64c3ede/webfonts/leaguegothic-regular-webfont.eot'),
+        url('../fonts/theleagueof-league-gothic-64c3ede/webfonts/leaguegothic-regular-webfont.woff')  format('woff'),
+        url('/fonts/theleagueof-league-gothic-64c3ede/webfonts/leaguegothic-regular-webfont.svg') format('svg');
+}
+
 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -24,10 +31,13 @@ label {
     color: #34495e;
 }
 
+html {
+    font-family: LeagueGothic Regular WebFont;
+}
 
 #myContainer{
-    zoom: 0.5;
-    -moz-transform: scale(0.5);
+   /* zoom: 0.5;*/
+    /*-moz-transform: scale(0.5);*/
 }
 
 
@@ -97,25 +107,30 @@ label {
  * -- PURE BUTTON STYLES --
  * I want my pure-button elements to look a little different
  */
-.pure-button {
-    background-color: #C0C0C0;
-    border-radius: 10px;
-}
 
-a.pure-button-primary:hover {
-	text-decoration: bold;
-	color: white;
-    opacity: 0.8;
+ 
+.pure-button {
+    background-color: transparent;
+    border:none;
+    padding: .5em 1em;
 }
 
 a.pure-button-primary {
-    background: #C0C0C0;
+    background-color: transparent;
     text-decoration: none;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     font-size: 180%;
-    opacity: 0.5;
-    color: black;
+   /*opacity: 0.5;*/
+    color: #FFFFFF;
 }
+
+a.pure-button-primary:hover {
+    background-color: rgb(0,0,0,0);
+	text-decoration: bold;
+	color: #C0C0C0;
+    opacity: 0.8;
+}
+
 
 /*
  * -- MENU STYLES --
@@ -145,12 +160,13 @@ a.pure-button-primary {
     border-bottom: none;
     /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
+    zoom: 0.5;
 }
 
 .footers{
     color: white;
     font-size: 20px;
-    font-family: Helvetica;
+    /*font-family: Helvetica;*/
     text-align: center;
 }
 
@@ -178,8 +194,8 @@ a.pure-button-primary {
     background-size: cover;
     background-repeat: no-repeat;
     /*background: #421C52;*/
-    z-index: 8s;
-    overflow: scroll;
+    /*z-index: 8s;*/
+    /*overflow: scroll; */
     /* The following styles are required for the "scroll-over" effect */
     width: 100%;
     height: 100%;
@@ -201,20 +217,24 @@ a.pure-button-primary {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 100px;
-    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 10px;
     color: white;
+    font-size: 120px;
+    /*
+    font-weight: bold;
     border: 10px solid white;
     padding: 1em;
     font-weight: 600;
     border-radius: 0px;
-    line-height: 1em;
+    line-height: 1em;*/
 }
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
     color: white;
     letter-spacing: 0.05em;
+    font-size: 12px;
     /*opacity: 0.8;*/
 }
 
@@ -314,10 +334,10 @@ a.pure-button-primary {
         height: 50%;
     }
 
-    .splash-head {
+   /* .splash-head {
         font-size: 250%;
     }
-
+*/
 
     /* We remove the border-separator assigned to .l-box-lrg */
     .l-box-lrg {
