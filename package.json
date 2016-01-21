@@ -1,0 +1,35 @@
+{
+  "name": "nucfcweb",
+  "version": "1.0.0",
+  "description": "Front End Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeForChicago/CFC-Website-V2.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }, 
+  "engines" : {
+    "node": "5.0.0",
+    "npm": "2.8.3"
+  },
+  
+  "keywords": [
+    "nucfc",
+    "northwestern",
+    "coding"
+  ],
+  "author": "CFC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeForChicago/CFC-Website-V2/issues"
+  },
+  "homepage": "https://github.com/CodeForChicago/CFC-Website-V2#readme",
+  "dependencies":{
+    "express": "^4.12.3"
+  }
+}
